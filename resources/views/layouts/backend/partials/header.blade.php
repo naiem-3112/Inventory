@@ -1,3 +1,4 @@
+<div class="wrapper">
 <header class="main-header">
     <!-- Logo -->
     <a href="index.html" class="logo">
@@ -25,7 +26,7 @@
                 <li class="dropdown user user-menu">
                     <a href="#" class="dropdown-toggle" data-toggle="dropdown">
                         <img src="{{asset('assets/images/avater1.png')}}" class="user-image" alt="User Image">
-                        <span class="hidden-xs">Ariful Islam</span>
+                        <span class="hidden-xs">Admin</span>
                     </a>
                     <ul class="dropdown-menu">
                         <!-- User image -->
@@ -33,7 +34,7 @@
                             <img src="{{asset('assets/images/avater1.png')}}" class="img-circle" alt="User Image">
 
                             <p>
-                                Ariful Islam - Web Developer
+                                Admin - Web Developer
                                 <small>Member since Nov. 2020</small>
                             </p>
                         </li>
@@ -56,3 +57,4 @@
         </div>
     </nav>
 </header>
+</div>

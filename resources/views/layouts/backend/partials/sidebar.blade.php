@@ -7,7 +7,7 @@
                 <img src="{{asset('assets/images/avater1.png')}}" class="img-circle" alt="User Image">
             </div>
             <div class="pull-left info">
-                <p>Ariful Islam</p>
+                <p>Admin</p>
                 <a href="#"><i class="fa fa-circle text-success"></i> Online</a>
             </div>
         </div>
@@ -45,13 +45,14 @@
             </li>
             <li class="treeview">
                 <a href="#">
-                    <i class="fa fa-edit"></i> <span>Deposit</span>
+                    <i class="fa fa-edit"></i> <span>Product Manage</span>
                     <span class="pull-right-container">
               <i class="fa fa-angle-left pull-right"></i>
             </span>
                 </a>
                 <ul class="treeview-menu">
-                    <li><a href="pages/forms/general.html"><i class="fa fa-dollar"></i> Deposits</a></li>
+                    <li><a href="{{ route('product.create') }}"><i class="fa fa-plus"></i> Add</a></li>
+                    <li><a href="{{ route('product.index') }}"><i class="fa fa-list"></i> list</a></li>
 
                 </ul>
             </li>

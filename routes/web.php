@@ -21,3 +21,13 @@ Route::get('registration', 'AuthController@registration')->name('register');
 Route::post('post-registration', 'AuthController@postRegistration');
 Route::get('dashboard', 'AuthController@dashboard')->name('dashboard');
 Route::get('logout', 'AuthController@logout')->name('logout');
+
+//product
+Route::group(['as' => 'product.', 'prefix' => 'product'], function(){
+    Route::get('index', 'ProductController@index')->name('index');
+    Route::get('create', 'ProductController@create')->name('create');
+    Route::post('store', 'ProductController@store')->name('store');
+    Route::get('edit', 'ProductController@edit')->name('edit');
+    Route::post('update', 'ProductController@update')->name('update');
+    Route::get('delete', 'ProductController@delete')->name('delete');
+});
