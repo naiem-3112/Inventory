@@ -32,15 +32,27 @@
             </li>
             <li class="treeview">
                 <a href="#">
-                    <i class="fa fa-pie-chart"></i>
-                    <span>Branch</span>
+                    <i class="fa fa-pie-chart"></i><span>Brand Manage</span>
+                    <span class="pull-right-container">
+              <i class="fa fa-angle-left pull-right"></i>
+            </span>
                 </a>
+                <ul class="treeview-menu">
+                    <li><a href="{{ route('brand.create') }}"><i class="fa fa-plus"></i>Add</a></li>
+                    <li><a href="{{ route('brand.list') }}"><i class="fa fa-list"></i>List</a></li>
+                </ul>
             </li>
             <li class="treeview">
                 <a href="#">
-                    <i class="fa fa-laptop"></i>
-                    <span>Other Banks</span>
+                    <i class="fa fa-laptop"></i><span>Category</span>
+                    <span class="pull pull-right-container">
+                        <i class="fa fa-angle-left pull-right"></i>
+                    </span>
                 </a>
+                <ul class="treeview-menu">
+                    <li><a href="{{ route('category.create') }}"><i class="fa fa-plus"></i>Add</a></li>
+                    <li><a href="{{ route('category.list') }}"><i class="fa fa-list"></i>List</a></li>
+                </ul>
             </li>
             <li class="treeview">
                 <a href="#">
@@ -51,8 +63,8 @@
                 </a>
                 <ul class="treeview-menu">
                     <li><a href="{{ route('product.create') }}"><i class="fa fa-plus"></i> Add</a></li>
-                    <li><a href="{{ route('product.index') }}"><i class="fa fa-list"></i> list</a></li>
-
+                    <li><a href="{{ route('product.list') }}"><i class="fa fa-list"></i> List</a></li>
+list
                 </ul>
             </li>
             <li class="treeview">
