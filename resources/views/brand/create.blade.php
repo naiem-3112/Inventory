@@ -27,7 +27,7 @@
                                     <option value="0">Inactive</option>
                                 </select>
                                 @if($errors->has('status'))
-                                    <span class="error" style="color: red">{{ $errors->first('brandName') }}</span>
+                                    <span class="error" style="color: red">{{ $errors->first('status') }}</span>
                                 @endif
                             </div>
                             <button type="submit" class="btn btn-primary" style="margin-bottom: 5px">Add Brand</button>

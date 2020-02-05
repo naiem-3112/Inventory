@@ -15,6 +15,9 @@
                             <div class="form-group">
                                 <label>Brand Name</label>
                                 <input type="text" name="brandName" class="form-control" value="{{ $brand->brandName }}">
+                                @if($errors->has('brandName'))
+                                    <span class="error" style="color: red">{{ $errors->first('brandName') }}</span>
+                                @endif
                             </div>
                             <div class="form-group">
                                 <label>Status</label>
@@ -22,6 +25,9 @@
                                     <option value = "1" {{$brand->status== 1?'selected': ''}}>Active</option>
                                     <option value = "0" {{$brand->status== 0?'selected': ''}}>Inactive</option>
                                 </select>
+                                @if($errors->has('status'))
+                                    <span class="error" style="color: red">{{ $errors->first('status') }}</span>
+                                @endif
                             </div>
                             <button type="submit" class="btn btn-primary" style="margin-bottom: 5px">Update Brand</button>
                         </form>

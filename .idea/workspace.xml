@@ -2,14 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f78f0dc9-b178-4eed-9b3c-2ad97b669380" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/resources/views/brand/edit.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/brand/index.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/BrandController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/BrandController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/migrations/2020_02_03_115619_create_products_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2020_02_03_115619_create_products_table.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/brand/create.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/brand/create.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/layouts/backend/partials/sidebar.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/backend/partials/sidebar.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/brand/edit.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/brand/edit.blade.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -191,7 +186,7 @@
       <workItem from="1580718853144" duration="2674000" />
       <workItem from="1580722658234" duration="6507000" />
       <workItem from="1580879828381" duration="538000" />
-      <workItem from="1580880399511" duration="11672000" />
+      <workItem from="1580880399511" duration="12167000" />
     </task>
     <task id="LOCAL-00001" summary="product form initialize">
       <created>1580734001609</created>
@@ -221,7 +216,14 @@
       <option name="project" value="LOCAL" />
       <updated>1580884994321</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="bran crud done">
+      <created>1580898263574</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1580898263576</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -248,6 +250,7 @@
     <MESSAGE value="product create page design" />
     <MESSAGE value="brand migration created" />
     <MESSAGE value="category migration created" />
-    <option name="LAST_COMMIT_MESSAGE" value="category migration created" />
+    <MESSAGE value="bran crud done" />
+    <option name="LAST_COMMIT_MESSAGE" value="bran crud done" />
   </component>
 </project>
