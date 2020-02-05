@@ -40,9 +40,9 @@
     @stack('base.css')
 </head>
 <body class="hold-transition skin-blue sidebar-mini">
-
+<div class="wrapper">
 @yield('base.content')
-
+</div>
 <!--jQuery-->
 <!-- jQuery 3 -->
 <script src="{{asset('bower_components/jquery/dist/jquery.min.js')}}"></script>

@@ -26,8 +26,8 @@
         <ul class="sidebar-menu" data-widget="tree">
             <li class="header">MAIN NAVIGATION</li>
             <li class="active treeview">
-                <a href="#">
-                    <i href="#" class="fa fa-dashboard"></i> <span>Dashboard</span>
+                <a href="{{ route('dashboard') }}">
+                    <i class="fa fa-dashboard"></i> <span>Dashboard</span>
                 </a>
             </li>
             <li class="treeview">
@@ -35,7 +35,6 @@
                     <i class="fa fa-pie-chart"></i>
                     <span>Branch</span>
                 </a>
-
             </li>
             <li class="treeview">
                 <a href="#">
@@ -58,42 +57,76 @@
             </li>
             <li class="treeview">
                 <a href="#">
-                    <i class="fa fa-table"></i> <span>Withdraw</span>
+                    <i class="fa fa-table"></i> <span>Supplier Manage</span>
                     <span class="pull-right-container">
               <i class="fa fa-angle-left pull-right"></i>
             </span>
                 </a>
                 <ul class="treeview-menu">
-                    <li><a href="pages/tables/data.html"><i class="fa fa-circle-o"></i> Withdraw Request</a></li>
-                    <li><a href="pages/tables/simple.html"><i class="fa fa-circle-o"></i>Approved Withdraw </a></li>
-                    <li><a href="pages/tables/simple.html"><i class="fa fa-circle-o"></i>Rejected Withdraw </a></li>
-                    <li><a href="pages/tables/simple.html"><i class="fa fa-circle-o"></i>Withdraw Method </a></li>
+                    <li><a href="pages/tables/data.html"><i class="fa fa-circle-o"></i>Request</a></li>
                 </ul>
             </li>
 
             <li class="treeview">
                 <a href="#">
-                    <i class="fa fa-table"></i> <span>User Management</span>
+                    <i class="fa fa-table"></i> <span>Customer Manage</span>
                     <span class="pull-right-container">
               <i class="fa fa-angle-left pull-right"></i>
             </span>
                 </a>
                 <ul class="treeview-menu">
-                    <li><a href="pages/tables/data.html"><i class="fa fa-circle-o"></i> All Users</a></li>
-                    <li><a href="pages/tables/simple.html"><i class="fa fa-circle-o"></i>Verified Users </a></li>
-                    <li><a href="pages/tables/simple.html"><i class="fa fa-circle-o"></i>Banned Users </a></li>
+                    <li><a href="pages/tables/data.html"><i class="fa fa-circle-o"></i> All Customer</a></li>
+                    <li><a href="pages/tables/simple.html"><i class="fa fa-circle-o"></i>Verified Customer </a></li>
+                </ul>
+            </li>
+            <li class="treeview">
+                <a href="#">
+                    <i class="fa fa-table"></i> <span>Sell Manage</span>
+                    <span class="pull-right-container">
+              <i class="fa fa-angle-left pull-right"></i>
+            </span>
+                </a>
+                <ul class="treeview-menu">
+                    <li><a href="pages/tables/data.html"><i class="fa fa-circle-o"></i> All Customer</a></li>
+                    <li><a href="pages/tables/simple.html"><i class="fa fa-circle-o"></i>Verified Customer </a></li>
+                </ul>
+            </li>
+            <li class="treeview">
+                <a href="#">
+                    <i class="fa fa-table"></i> <span>Purchase Manage</span>
+                    <span class="pull-right-container">
+              <i class="fa fa-angle-left pull-right"></i>
+            </span>
+                </a>
+                <ul class="treeview-menu">
+                    <li><a href="pages/tables/data.html"><i class="fa fa-circle-o"></i> All Customer</a></li>
+                    <li><a href="pages/tables/simple.html"><i class="fa fa-circle-o"></i>Verified Customer </a></li>
                 </ul>
             </li>
 
             <li class="treeview">
                 <a href="#">
-                    <i class="fa fa-table"></i> <span>Transaction</span>
+                    <i class="fa fa-table"></i> <span>Stock Manage</span>
                     <span class="pull-right-container">
               <i class="fa fa-angle-left pull-right"></i>
             </span>
                 </a>
                 <ul class="treeview-menu">
-                    <li><a href="pages/tables/data.html"><i class="fa fa-circle-o"></i>Paying Bill</a></li>
+                    <li><a href="pages/tables/data.html"><i class="fa fa-circle-o"></i> All Customer</a></li>
+                    <li><a href="pages/tables/simple.html"><i class="fa fa-circle-o"></i>Verified Customer </a></li>
+                </ul>
+            </li>
+            <li class="treeview">
+                <a href="#">
+                    <i class="fa fa-table"></i> <span>Report Manage</span>
+                    <span class="pull-right-container">
+              <i class="fa fa-angle-left pull-right"></i>
+            </span>
+                </a>
+                <ul class="treeview-menu">
+                    <li><a href="pages/tables/data.html"><i class="fa fa-circle-o"></i> Daily Report</a></li>
+                    <li><a href="pages/tables/simple.html"><i class="fa fa-circle-o"></i>Monthly Report </a></li>
+                    <li><a href="pages/tables/simple.html"><i class="fa fa-circle-o"></i>Yearly Report </a></li>
                 </ul>
             </li>
         </ul>

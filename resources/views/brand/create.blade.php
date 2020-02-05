@@ -10,6 +10,7 @@
         </div>
     </section>
 
+
     <section class="content">
         <div class="container-fluid">
             <div class="row">
@@ -37,6 +38,7 @@
                                     <option value="">category 2</option>
                                 </select>
                             </div>
+
                             <div class="form-group">
                                 <label>Buying Price</label>
                                 <input type="number" name="buyingPrice" class="form-control" placeholder="Enter product buying price">
@@ -45,11 +47,12 @@
                                 <label>Selling Price</label>
                                 <input type="number" name="sellingPrice" class="form-control" placeholder="Enter product selling price">
                             </div>
-                            <button type="submit" class="btn btn-primary" style="margin-bottom: 5px">Add Product</button>
+                            <button type="submit" class="btn btn-primary" style="margin-bottom: 5px">Submit</button>
                         </form>
                     </div>
                 </div>
             </div>
         </div>
     </section>
+
 @endsection

@@ -22,7 +22,7 @@ Route::post('post-registration', 'AuthController@postRegistration');
 Route::get('dashboard', 'AuthController@dashboard')->name('dashboard');
 Route::get('logout', 'AuthController@logout')->name('logout');
 
-//product
+//Product
 Route::group(['as' => 'product.', 'prefix' => 'product'], function(){
     Route::get('index', 'ProductController@index')->name('index');
     Route::get('create', 'ProductController@create')->name('create');
@@ -30,4 +30,24 @@ Route::group(['as' => 'product.', 'prefix' => 'product'], function(){
     Route::get('edit', 'ProductController@edit')->name('edit');
     Route::post('update', 'ProductController@update')->name('update');
     Route::get('delete', 'ProductController@delete')->name('delete');
+});
+
+//Category
+Route::group(['as' => 'category.', 'prefix' => 'category'], function(){
+    Route::get('index', 'CategoryController@index')->name('index');
+    Route::get('create', 'CategoryController@create')->name('create');
+    Route::post('store', 'CategoryController@store')->name('store');
+    Route::get('edit', 'CategoryController@edit')->name('edit');
+    Route::post('update', 'CategoryController@update')->name('update');
+    Route::get('delete', 'CategoryController@delete')->name('delete');
+});
+
+//Brand
+Route::group(['as' => 'brand.', 'prefix' => 'brand'], function(){
+    Route::get('index', 'BrandController@index')->name('index');
+    Route::get('create', 'BrandController@create')->name('create');
+    Route::post('store', 'BrandController@store')->name('store');
+    Route::get('edit', 'BrandController@edit')->name('edit');
+    Route::post('update', 'BrandController@update')->name('update');
+    Route::get('delete', 'BrandController@delete')->name('delete');
 });
