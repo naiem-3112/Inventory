@@ -20,6 +20,7 @@ class CreateProductsTable extends Migration
             $table->string('productName');
             $table->integer('buyingPrice');
             $table->integer('sellingPrice');
+            $table->boolean('status');
             $table->foreign('brand_id')->references('id')
                 ->on('brands')->onDelete('cascade')->onUpdate('cascade');
             $table->foreign('category_id')->references('id')
