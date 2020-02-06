@@ -53,6 +53,9 @@ class BrandController extends Controller
     public function delete($id)
     {
         $brand = Brand::findOrfail($id);
+        if ($brand->product->isNotEmpty()){
+            return ['type' => 'warning', 'title' => 'Delete Restricted', 'message' => 'This brand product exist yet', 'restrict' => 'restricted'];
+        }
         $brand->delete();
         return back();
     }
