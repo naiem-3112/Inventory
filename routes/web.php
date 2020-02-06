@@ -44,11 +44,11 @@ Route::group(['prefix' => 'brand', 'as' => 'brand.'], function(){
 });
 
 //Category
-Route::group(['as' => 'category.', 'prefix' => 'category'], function(){
+Route::group(['prefix' => 'category', 'as' => 'category.'], function(){
     Route::get('list', 'CategoryController@index')->name('list');
     Route::get('create', 'CategoryController@create')->name('create');
     Route::post('store', 'CategoryController@store')->name('store');
-    Route::get('edit', 'CategoryController@edit')->name('edit');
-    Route::post('update', 'CategoryController@update')->name('update');
-    Route::get('delete', 'CategoryController@delete')->name('delete');
+    Route::get('edit/{id}', 'CategoryController@edit')->name('edit');
+    Route::post('update/{id}', 'CategoryController@update')->name('update');
+    Route::get('delete/{id}', 'CategoryController@delete')->name('delete');
 });

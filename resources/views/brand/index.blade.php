@@ -27,7 +27,7 @@
                                 <td>{{ $brand->status }}</td>
                                 <td>
                                     <a class="btn btn-sm btn-info" href="{{ route('brand.edit', $brand->id) }}"><i class="fa fa-pencil"></i></a>
-                                    <a class="btn btn-sm btn-danger" href="{{ route('brand.delete', $brand->id) }}"><i class="fa fa-trash"></i></a>
+                                    <a class="btn btn-sm btn-danger" onclick="alert('Are you sure to delete!')" href="{{ route('brand.delete', $brand->id) }}"><i class="fa fa-trash"></i></a>
                                 </td>
                             </tr>
                                 @endforeach

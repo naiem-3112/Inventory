@@ -2,9 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f78f0dc9-b178-4eed-9b3c-2ad97b669380" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/resources/views/category/edit.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/category/index.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/brand/create.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/brand/create.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/brand/edit.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/brand/edit.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/CategoryController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/CategoryController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/brand/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/brand/index.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/category/create.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/category/create.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -141,17 +145,18 @@
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/resources/views/brand" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/resources/views/category" />
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\xampp\htdocs\OBank\resources\views\layouts\backend" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Inventory\resources\views\category" />
       <recent name="D:\Inventory\resources\views\brand" />
       <recent name="D:\Inventory\resources\views" />
       <recent name="D:\Inventory" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\OBank\resources\views\layouts\backend" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -186,7 +191,9 @@
       <workItem from="1580718853144" duration="2674000" />
       <workItem from="1580722658234" duration="6507000" />
       <workItem from="1580879828381" duration="538000" />
-      <workItem from="1580880399511" duration="12167000" />
+      <workItem from="1580880399511" duration="12426000" />
+      <workItem from="1580965888931" duration="39000" />
+      <workItem from="1580975772642" duration="1655000" />
     </task>
     <task id="LOCAL-00001" summary="product form initialize">
       <created>1580734001609</created>
@@ -223,7 +230,14 @@
       <option name="project" value="LOCAL" />
       <updated>1580898263576</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="brand edit page validation modified">
+      <created>1580901115572</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1580901115572</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -251,6 +265,7 @@
     <MESSAGE value="brand migration created" />
     <MESSAGE value="category migration created" />
     <MESSAGE value="bran crud done" />
-    <option name="LAST_COMMIT_MESSAGE" value="bran crud done" />
+    <MESSAGE value="brand edit page validation modified" />
+    <option name="LAST_COMMIT_MESSAGE" value="brand edit page validation modified" />
   </component>
 </project>
