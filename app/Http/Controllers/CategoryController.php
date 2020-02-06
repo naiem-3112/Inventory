@@ -53,6 +53,9 @@ class CategoryController extends Controller
     public function delete($id)
     {
         $category = Category::findOrfail($id);
+        if ($category->product->isNotEmpty()){
+            return ['type' => 'warning', 'title' => 'Delete Restricted', 'message' => 'This category product exist yet', 'restrict' => 'restricted'];
+        }
         $category->delete();
         return back();
     }
