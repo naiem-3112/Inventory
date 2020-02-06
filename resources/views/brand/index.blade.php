@@ -4,7 +4,7 @@
         <div class="container-fluid">
             <div class="row">
                 <!--left-column-->
-                <div class="col-md-6 offset-sm-2">
+                <div class="col-md-6 offset-md-2">
                     <div class="box box-success col-lg-12">
                         <div class="box box-header"  style="font-size: 20px">
                         <p class="pull-left">Brand List</p>
